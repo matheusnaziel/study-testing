@@ -1,0 +1,112 @@
+body {
+  background-color: #000;
+}
+.content-wrapper {
+  max-width: 425px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background: #fff;
+}
+.header-comments {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+}
+.header- {
+  color: #fff;
+  margin: 0;
+}
+.header- h1 {
+  margin: 0;
+}
+.header-center {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-center p {
+  margin: 0;
+}
+.header-right-icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-right-icon i {
+  margin: 0;
+}
+.body-section {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+}
+.body-section-2 {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+.body-section-3 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+.body-section-4 {
+  position: absolute;
+  width: 100%;
+  top: 70%;
+}
+.body-section-comments-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-section-comments-avatar img {
+  width: 50px;
+}
+.body-section-comments-name {
+  display: flex;
+}
+.body-section-comments-name p {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.body-section-comments-name-span {
+  display: block;
+  background-color: #cecece;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  margin-right: 8px;
+  position: absolute;
+  right: 4px;
+  top: 12px;
+}
+.body-section-comments-hour {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 4px;
+}
+.body-section-comments-hour p {
+  color: #cecece;
+  font-size: 12px;
+}
+.body-secction-comments-text {
+  position: absolute;
+  top: -25px;
+  left: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #d9d9d9;
+}
