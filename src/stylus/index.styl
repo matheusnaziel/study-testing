@@ -1,0 +1,84 @@
+body
+	background-color #000
+
+.content-wrapper
+	max-width 425px
+	margin 0 auto
+	position relative
+
+.content
+	display grid
+	grid-template-rows 99vh
+	grid-template-areas "main main main"
+	padding-right 15px
+	padding-left 15px	
+
+.main
+	grid-area main
+	display flex
+	justify-content center
+	align-items center
+	
+.background-full-wrapper
+	background-image url(../images/nomade.jpeg)
+	height 100vh
+	width 100%
+	background-repeat no-repeat
+	background-size cover
+	
+.main-content
+	position absolute
+	left 40px
+	bottom 90px
+	p
+		color #fff
+	h1
+		color #fff
+		font-weight 700
+	button
+		font-weight 700
+		font-size 11px
+		letter-spacing 1px
+		border none
+		padding 5px 13px
+		margin-top 14px
+		
+.footer
+	position absolute
+	bottom 0
+	width 100%
+	height 50px
+	background-color #fff
+	
+.footer-button
+	button
+		height 50px
+		border none
+		background none	
+		position absolute
+		left 31px
+		font-weight 600
+
+.footer-center
+	height 50px
+	display flex
+	align-items center
+	justify-content center
+
+.footer-center-span
+	display block
+	background-color #cecece
+	width 5px
+	height 5px
+	border-radius 10px
+	margin-right 8px
+	
+	&.active
+		background-color grey
+
+.footer-right-icon
+	i
+		height 50px
+		display flex
+		align-items center
+		justify-content center
